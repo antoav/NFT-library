@@ -6,7 +6,7 @@ import twitterLogo from '../assets/owner/twitter.png'
 
 
 const Main = ({ selectedPunk, punkListData}) => {
-    const [activePunk, setActivePunk] = useState(punkListData[0])
+    const [activePunk, setActivePunk] = useState(punkListData[1])
 
     useEffect(() => {
         setActivePunk(punkListData[selectedPunk])
