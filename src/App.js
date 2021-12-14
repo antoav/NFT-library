@@ -1,4 +1,3 @@
-//import logo from './logo.svg';
 import './App.css';
 import CollectionCard from './components/CollectionCard';
 import Header from './components/Header';
@@ -13,6 +12,7 @@ function App() {
   const [selectedPunk, setSelectedPunk] = useState(0)
   
   useEffect(() => {
+    document.title = "NFT Gallery"
     const getMyNfts = async () => {
       const openSeaData = await axios.get(
         'https://testnets-api.opensea.io/assets?asset_contract_address=0x3377063613cA1caC67BfcA231Ea046cD9A08E3aa&order_direction=asc'
