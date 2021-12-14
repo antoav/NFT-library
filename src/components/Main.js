@@ -41,17 +41,6 @@ const Main = ({ selectedPunk, punkListData}) => {
                             <div className='ownerAddress'>  </div>
                             <div className='ownerHandle'>@CleverProgrammer</div>
                         </div>
-                        <div className='owwnerLink'>
-                            <img src={ instagramLogo} alt='' />
-                        </div>
-
-                        <div className='owwnerLink'>
-                            <img src={twitterLogo} alt='' />
-                        </div>
-
-                        <div className='owwnerLink'>
-                            <img src={moreIcon} alt='' />
-                        </div>
                     </div>
                 </div>
             </div>
