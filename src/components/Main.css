@@ -5,7 +5,10 @@
 .mainContent {
     display: flex;
     padding-bottom: 20px;
-    border-bottom: 1px solid grey;
+    /*border-bottom: 1px solid grey;*/
+    background-color: black;
+    border-radius: 20px;
+    padding: 30px;
 }
 
 .punkHighlight {
@@ -32,17 +35,19 @@
     flex-direction: column;
     justify-content: space-between;
     flex: 0.75;
+    padding-left: 40px;
 }
 
 .title {
     font-size: 96px;
     font-weight: 800;
+    color: white;
 }
 
 .itemNumber {
     color: #a1a5b0;
     font-size: 72px;
-    align-self: center;
+    font-weight: 800;
 }
 
 .owner {
@@ -83,7 +88,7 @@
 }
 
 .ownerHandle {
-    color: #00ebfe;
+    color: #A3C4BC;
 }
 
 .ownerAddress {
